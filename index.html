@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f8f6" />
+    <meta name="description" content="Selected software projects by a student engineer." />
+    <title>Selected Work — Bridget Lin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main id="top">
+      <section class="exhibition-entry" aria-labelledby="entry-name">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> An engineer's practice · 2023—Current</p>
+        <div class="entry-title-row">
+          <h1 id="entry-name">Bridget Lin</h1>
+          <div class="entry-details">
+            <p class="entry-role">Software Engineer</p>
+            <p class="entry-study">University of Michigan · Class of 2027</p>
+          </div>
+        </div>
+        <div class="entry-rule"><span>Selected projects</span><span>Enter the gallery ↓</span></div>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="gallery-heading">
+        <div class="section-intro">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A living collection · 2023—Current</p>
+          <h2 id="gallery-heading">Selected <em>work</em></h2>
+          <p class="intro-note">Small experiments, useful things, and the ideas in between.</p>
+        </div>
+
+        <div class="gallery-toolbar" aria-label="Gallery controls">
+          <div class="gallery-toolbar-status">
+            <p id="gallery-count" class="mono-label" aria-live="polite">01 <span>/</span> 04</p>
+            <button class="gallery-reset" id="reset-projects" type="button" hidden>← All projects</button>
+          </div>
+          <div class="gallery-controls">
+            <button class="icon-button" id="previous-project" type="button" aria-label="Previous project" title="Previous project">
+              <span aria-hidden="true">←</span>
+            </button>
+            <button class="icon-button icon-button-next" id="next-project" type="button" aria-label="Next project" title="Next project">
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </div>
+
+        <article class="project" aria-live="polite" aria-atomic="true">
+          <div class="art-frame">
+            <div class="frame-topline"><span>FIG. <span id="figure-number">01</span></span><span id="project-category">INTERACTIVE / WEB</span></div>
+            <div id="project-art" class="project-art" aria-hidden="true"></div>
+            <div class="frame-bottomline"><span id="project-year">2026</span><span>AM—STUDIO</span></div>
+          </div>
+          <div class="project-caption">
+            <div class="caption-main">
+              <div class="project-heading-row">
+                <p class="project-index mono-label" id="project-index">01 / 04</p>
+                <h2 id="project-title">Fieldnotes</h2>
+              </div>
+              <p id="project-description" class="project-description"></p>
+            </div>
+            <div class="caption-side">
+              <div id="project-tags" class="project-tags" aria-label="Project technologies"></div>
+              <a id="project-link" class="project-link" href="#" target="_blank" rel="noreferrer">View project <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <p id="project-empty" class="project-empty" role="status" hidden></p>
+
+        <div class="gallery-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+      </section>
+
+      <section class="skills-section" aria-labelledby="skills-heading">
+        <div class="skills-heading-block">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Materials & methods</p>
+          <h2 id="skills-heading">The <em>toolkit</em></h2>
+        </div>
+        <p class="skills-instruction">Choose a skill to see it at work.</p>
+        <div id="skills-list" class="skills-list" aria-label="Filter projects by skill"></div>
+        <p id="skill-result" class="skill-result" aria-live="polite">Showing all 4 projects</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Inspired by a love of art galleries.</p>
+      <div class="footer-links">
+        <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=bridgel%40umich.edu" target="_blank" rel="noreferrer">Gmail <span aria-hidden="true">↗</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
