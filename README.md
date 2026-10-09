@@ -1,6 +1,6 @@
 # Bridget Lin Portfolio
 
-A single-page portfolio that presents selected projects as a small, scrollable art gallery.
+A single-page portfolio that presents selected projects as a small, scrollable art gallery. View the live site: https://linbridget.github.io/portfolio/
 
 ## Features
 
@@ -17,5 +17,5 @@ A single-page portfolio that presents selected projects as a small, scrollable a
 
 ## Local Preview
 
-Open `index.html` in a browser. Because this is a static site, no installation or build step is required.
+Open `index.html` in a browser. 
 
