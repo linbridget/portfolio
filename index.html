@@ -23,19 +23,23 @@
             <p class="entry-study">University of Michigan · Class of 2027</p>
           </div>
         </div>
-        <div class="entry-rule"><span>Selected projects</span><span>Enter the gallery ↓</span></div>
+        <div class="entry-rule"><span id="entry-rule-title">Selected projects</span><span id="entry-rule-action">Enter the gallery ↓</span></div>
+        <nav class="portfolio-tabs" aria-label="Portfolio view">
+          <button class="portfolio-tab" id="engineering-tab" type="button" aria-pressed="true">Engineering</button>
+          <button class="portfolio-tab" id="art-tab" type="button" aria-pressed="false">Art</button>
+        </nav>
       </section>
 
       <section class="gallery-section" aria-labelledby="gallery-heading">
         <div class="section-intro">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> A living collection · 2023—Current</p>
+          <p class="eyebrow" id="gallery-kicker"><span class="eyebrow-dot"></span> A living collection · 2023—Current</p>
           <h2 id="gallery-heading">Selected <em>work</em></h2>
-          <p class="intro-note">Small experiments, useful things, and the ideas in between.</p>
+          <p class="intro-note" id="gallery-note">Small experiments, useful things, and the ideas in between.</p>
         </div>
 
         <div class="gallery-toolbar" aria-label="Gallery controls">
           <div class="gallery-toolbar-status">
-            <p id="gallery-count" class="mono-label" aria-live="polite">01 <span>/</span> 04</p>
+            <p id="gallery-count" class="mono-label" aria-live="polite">01 <span>/</span> 05</p>
             <button class="gallery-reset" id="reset-projects" type="button" hidden>← All projects</button>
           </div>
           <div class="gallery-controls">
@@ -50,9 +54,9 @@
 
         <article class="project" aria-live="polite" aria-atomic="true">
           <div class="art-frame">
-            <div class="frame-topline"><span>FIG. <span id="figure-number">01</span></span><span id="project-category">INTERACTIVE / WEB</span></div>
+            <div class="frame-topline"><span><span id="figure-label">FIG.</span> <span id="figure-number">01</span></span><span id="project-category">INTERACTIVE / WEB</span></div>
             <div id="project-art" class="project-art" aria-hidden="true"></div>
-            <div class="frame-bottomline"><span id="project-year">2026</span><span>AM—STUDIO</span></div>
+            <div class="frame-bottomline"><span id="project-year">2026</span></div>
           </div>
           <div class="project-caption">
             <div class="caption-main">
@@ -73,7 +77,7 @@
         <div class="gallery-progress" aria-hidden="true"><span id="progress-bar"></span></div>
       </section>
 
-      <section class="skills-section" aria-labelledby="skills-heading">
+      <section class="skills-section" id="skills-section" aria-labelledby="skills-heading">
         <div class="skills-heading-block">
           <p class="eyebrow"><span class="eyebrow-dot"></span> Materials & methods</p>
           <h2 id="skills-heading">The <em>toolkit</em></h2>
@@ -87,7 +91,7 @@
     <footer class="site-footer">
       <p>Inspired by a love of art galleries.</p>
       <div class="footer-links">
-        <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/linbridget" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=bridgel%40umich.edu" target="_blank" rel="noreferrer">Gmail <span aria-hidden="true">↗</span></a>
       </div>
